@@ -591,9 +591,9 @@ img { max-width: 100%; height: auto; }
 /* ===== Team ===== */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  max-width: 700px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -929,6 +929,7 @@ img { max-width: 100%; height: auto; }
   .portfolio-grid { grid-template-columns: 1fr; }
   .blog-grid { grid-template-columns: 1fr; }
   .team-grid { grid-template-columns: 1fr; max-width: 400px; }
+  .team-avatar svg { width: 36px; height: 36px; }
   .form-row { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 24px; }
 
